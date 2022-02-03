@@ -1,6 +1,6 @@
 # Erlang Schedulers on Kubernetes
 
-This is an example app used to illustrate how online schedulers are configured post OTP23 running in kubernetes. It expects at least 4 CPUs. If you don't have 4 CPUs available, change the `resources.limits.cpu` in `./k8s/pod.yaml`.
+This is an example app used to illustrate how the experience of online scheduler configured post OTP 23 has been greatly simplified as described in the [OTP 23 release notes](https://www.erlang.org/blog/otp-23-highlights/#container-friendly-features). It expects at least 4 CPUs. If you don't have 4 CPUs available, change the `resources.limits.cpu` in `./k8s/pod.yaml`.
 
 The application calculates primes, starting a task for each scheduler.
 
